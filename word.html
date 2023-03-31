@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 5%;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5em;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: black;
+}
+
+.caption,
+h1,
+.date {
+  margin: 0;
+  text-align: center;
+}
+
+.caption,
+h1 {
+  font-family: "Reenie Beanie", sans-serif;
+  font-size: 1.25em;
+  padding: 10px 10px 0 10px;
+}
+
+.date {
+  font-size: 0.75em;
+}
+
+.description {
+  font-size: 0.9em;
+  padding: 0 20px 20px 20px;
+  text-align: left;
+}
+
+.container {
+  perspective: 1000px;
+  display: inline-block;
+  margin: 5%;
+  object-fit: contain;
+}
+
+.container:hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.container,
+.front,
+.back {
+  width: 250px;
+  height: 250px;
+}
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  object-fit: contain;
+}
+
+.front {
+  z-index: 2;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+#content {
+  text-align: center;
+}
+</style>
+</head>
+
+
+<div id="content">
+  <p><b><font size="100px">EVERYDAY LANGUAGE</font></b></p>
+  <p>Recognising and interpreting the signs that are most frequently used in everyday communication, makes communication easier for people who have speaking or hearing impairment, especially in situations where they need to communicate with people who don't know sign language. By recognizing and interpreting the signs for common words and phrases, the assistant can help facilitate communication between different groups of people.Here are some of them that you may use.</p>
+
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src="words\hello.png" alt="A">
+        <p class="caption">Hello</p>
+      </div>
+      <div class="back">
+          <h1>HELLO</h1>
+        </a>
+        <p class="description">Place the hand you are writing with on your forehead close to your ear and move it outwards and away from your body.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src="words\yes.png" alt="B">
+        <p class="caption">Yes</p>
+      </div>
+      <div class="back">
+          <h1>YES</h1>
+        </a>
+        <p class="description"> Take a hand and make it into a fist and bob it back and forth, resembling a head nodding</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src="words\no.png" alt="C">
+        <p class="caption">No</p>
+      </div>
+      <div class="back">
+          <h1>NO</h1>
+        </a>
+        <p class="description">Take your first two fingers and tap them with your thumb, resembling a mouth saying no.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src=" words\please.png" alt="D">
+        <p class="caption">Please</p>
+      </div>
+      <div class="back">
+          <h1>PLEASE</h1>
+        </a>
+        <p class="description">Placing your dominant hand with your thumb sticking out and fingers extended over your chest. Then, move your hand in circular motion (clockwise) two or three times.</p>
+      </div>
+    </div>
+  </div>
+
+
+<div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src=" words\thankyou.png" alt="E">
+        <p class="caption">Thankyou</p>
+      </div>
+      <div class="back">
+          <h1>THANKYOU</h1>
+        </a>
+        <p class="description">Start with your dominant hand. Then place your fingers near your lips, with your hand as flat as possible. Move your hand forward and slightly downwards toward the person you are thanking.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src=" words\cat.png" alt="F">
+        <p class="caption">Cat</p>
+      </div>
+      <div class="back">
+          <h1>CAT</h1>
+        </a>
+        <p class="description">Pinch your thumb and index finger together by the side of each cheek, while keeping your remaining fingers straight out.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src=" words\me.png" alt="G">
+        <p class="caption">Me</p>
+      </div>
+      <div class="back">
+          <h1>ME</h1>
+        </a>
+        <p class="description">Point the index finger towards yourself</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src=" words\what.png" alt="H">
+        <p class="caption">What</p>
+      </div>
+      <div class="back">
+          <h1>WHAT</h1>
+        </a>
+        <p class="description">Turn up your open hands, with fingers spread apart and hands slightly curved and relaxed. </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src=" words\food.png" alt="I">
+        <p class="caption">Food</p>
+      </div>
+      <div class="back">
+          <h1>Food</h1>
+        </a>
+        <p class="description"> Squeeze your dominant hand and move it to your mouth as if you would put a piece of food in your mouth.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src=" words\water.png" alt="K">
+        <p class="caption">Water</p>
+      </div>
+      <div class="back">
+          <h1>WATER</h1>
+        </a>
+        <p class="description">Take your dominant hand and extend and separate the three middle fingers while holding the thumb and pinkie finger together. Then tap your index finger on your chin a couple of times.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src=" words\need.png" alt="L">
+        <p class="caption">Need</p>
+      </div>
+      <div class="back">
+          <h1>NEED</h1>
+        </a>
+        <p class="description">Start with an "X"-handshape (the fingerspelled letter "X") and then bend it downward from the wrist.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src=" words\why.png" alt="M">
+        <p class="caption">Why</p>
+      </div>
+      <div class="back">
+          <h1>WHY</h1>
+        </a>
+        <p class="description">Wiggle the middle finger a couple of times</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src=" words\phone.png" alt="N">
+        <p class="caption">Phone</p>
+      </div>
+      <div class="back">
+          <h1>PHONE</h1>
+        </a>
+        <p class="description">Stick out your pinkie and thumb for a “Y.”Press your other fingers against your palm. </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src=" words\you.png" alt="P">
+        <p class="caption">You</p>
+      </div>
+      <div class="back">
+          <h1>YOU</h1>
+        </a>
+        <p class="description">Point with your finger at the person you are referring to.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src=" words\your.png" alt="Q">
+        <p class="caption">Your</p>
+      </div>
+      <div class="back">
+          <h1>YOUR</h1>
+        </a>
+        <p class="description"> Aim your palm at the other person.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src=" words\ilu.png" alt="O">
+        <p class="caption">I Love You</p>
+      </div>
+      <div class="back">
+          <h1>I LOVE YOU</h1>
+        </a>
+        <p class="description">Point out your thumb and index finger to form an “L”. While keeping them extended, lift your little finger. Your middle and ring finger keep touching your palm.</p>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</html>

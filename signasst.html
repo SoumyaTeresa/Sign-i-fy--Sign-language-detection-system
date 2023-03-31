@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 5%;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5em;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: black;
+}
+
+.caption,
+h1,
+.date {
+  margin: 0;
+  text-align: center;
+
+}
+
+.caption,
+h1 {
+  font-family: "Reenie Beanie", sans-serif;
+  font-size: 1.25em;
+  padding: 10px 10px 0 10px;
+}
+
+.date {
+  font-size: 0.75em;
+}
+
+.description {
+  font-size: 0.9em;
+  padding: 0 20px 20px 20px;
+  text-align: left;
+}
+
+.container {
+  perspective: 1000px;
+  display: inline-block;
+  margin: 3%;
+  object-fit: contain;
+}
+
+.container:hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.container,
+.front,
+.back {
+  width: 250px;
+  height: 250px;
+}
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  object-fit: contain;
+}
+
+.front {
+  z-index: 2;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+#content {
+  text-align: center;
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+</head>
+
+
+<div id="content">
+  <p><b><font size="100px">SIGN ASSISTANT</font></b></p>
+  <p>Introducing a revolutionary new Sign Language Assistant, designed to make online browsing and navigation more accessible for individuals who use sign language as their primary mode of communication which allows individuals who are deaf or hard of hearing to access the vast resources of the internet with ease, without relying on text-based or voice-based assistance. Here are the signs for launching your favourite applications </p>
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src="C:\Users\navee\Downloads\Sign_logo\yt logo.png" alt="Y">
+      </div>
+      <div class="back">
+          <h1>YOUTUBE</h1>
+        </a>
+        <p class="date">Stick out your pinkie and thumb for a “Y.” </p>
+        <p class="description">Press your other fingers against your palm.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src="C:\Users\navee\Downloads\Sign_logo\calendar.png" alt="C">
+        
+      </div>
+      <div class="back">
+          <h1>CALENDER</h1>
+        </a>
+        <p class="date">Curl your whole hand into the shape of a "C"</p>
+        <p class="description">Turn your right hand so that your palm is facing towards the left. Then, curl your fingers and thumb to form a half circle or backward “C.” Hold your hand still.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src="C:\Users\navee\Downloads\Sign_logo\netflix.png" alt="N">
+        
+      </div>
+      <div class="back">
+          <h1>NETFLIX</h1>
+        </a>
+        <p class="date">Poke your thumb between your middle and ring finger for “N.”</p>
+        <p class="description">Curl your fingers as if they’re holding a ball. Then, push the tip of your thumb between your middle and ring fingers. </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src="C:\Users\navee\Downloads\Sign_logo\gmail.png" alt="G">
+        
+      </div>
+      <div class="back">
+          <h1>GMAIL</h1>
+        </a>
+        <p class="date">Point your index finger and turn your hand to the side to make a “G.”</p>
+        <p class="description">Make a fist and extend your index finger and rest your thumb against your middle finger.Your palm should face you and your index finger to your left.</p>
+      </div>
+    </div>
+  </div>
+
+
+<div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src="C:\Users\navee\Downloads\Sign_logo\spotify.png" alt="S">
+        
+      </div>
+      <div class="back">
+          <h1>SPOTIFY</h1>
+        </a>
+        <p class="date">Make a fist and put your thumb on top of your fingers for an “S.”</p>
+        <p class="description"> This is often confused with "A" so pay careful attention to the thumb position. Press your fingers against your palm and wrap your thumb over them.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src="C:\Users\navee\Downloads\Sign_logo\whatsapp.png" alt="W">
+        
+      </div>
+      <div class="back">
+          <h1>WHATSAPP</h1>
+        </a>
+        <p class="date"> Hold up 3 fingers and spread them apart to form “W.”</p>
+        <p class="description"> Press your pinkie finger to your palm using your thumb. Then, hold up your index, middle, and ring fingers and spread them apart </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src="C:\Users\navee\Downloads\Sign_logo\prime.png" alt="P">
+        
+      </div>
+      <div class="back">
+          <h1>PRIME VIDEO</h1>
+        </a>
+        <p class="date"> Press your thumb against your middle finger with index pointed for “P.”</p>
+        <p class="description">Press your ring finger and pinkie finger against your palm. Then, extend your index finger. Extend your middle finger so it's pointing down and touch it with your thumb.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flipper">
+      <div class="front">
+        <img src="C:\Users\navee\Downloads\Sign_logo\favourite.png" alt="F">
+        
+      </div>
+      <div class="back">
+          <h1>FAVOURITE SONGS</h1>
+        </a>
+        <p class="date">Press your index finger and thumb together with straight fingers for “F.”</p>
+        <p class="description">Keep your other 3 fingers straight.</p>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</html>
